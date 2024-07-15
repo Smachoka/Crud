@@ -5,7 +5,7 @@ A simple Crud Task Manager list application that allows users to add, edit, and 
 
 ## Demo
 
-You can see a live demo of the application [here](#).
+You can see a live demo of the application [here](https://smachoka.github.io/Crud/).
 
 ## Features
 

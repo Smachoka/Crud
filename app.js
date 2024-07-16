@@ -62,3 +62,26 @@ function displayTask(){
 }
 
 
+//function to edit an item in task list
+function editTask(index) {
+    //get the current item
+    let currentItem = taskList[index];
+
+    //prompt user for new item
+    let newTask = prompt("Enter new task:", currentItem);
+
+     // Check if the new item text is not empty and not the same as the current item text
+    if (newTask !== null && newTask.trim() !== "" && newTask !== currentItem) {
+        // Replace the current item text with the new item text
+        taskList[index] = newTask;
+        // Update the display
+        displayTask();
+    }
+}
+//function to delete items from tasklist
+function deleteTask(index) {
+    //remove the item from the list
+    taskList.splice(index, 1);
+    //update the display
+    displayTask();
+}

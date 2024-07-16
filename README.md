@@ -35,4 +35,4 @@ To run this application locally, follow these steps:
     Delete an Item:
         Click the "Delete" button next to the item you want to remove.
 
-## Still in progress, I am not yet done.
+
